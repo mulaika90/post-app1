@@ -1,0 +1,77 @@
+
+.navbar{
+    background-color: #673ab7
+
+;
+}
+.navbar-brand{
+    color: white;
+}
+.navbar-brand:hover{
+    color: white;
+}
+.btn-primary{
+    background-color: #7e57c2
+
+;
+    border-color: #7e57c2
+
+;
+    width: 100px;
+}
+
+.btn-primary:hover{
+    background-color: #7e57c2
+
+;
+    border-color: #7e57c2
+
+;
+}
+.btn-primary:active{
+    background-color: #7e57c2
+
+ !important;
+    border-color: #7e57c2
+
+!important;
+}
+
+.form-control:focus{
+    border-color: #7e57c2
+;
+    box-shadow: 0 0 0 0.2rem rgba(206, 193, 226, 0.25) !important;
+}
+.swal2-confirm{
+     background-color: #7e57c2
+;
+    border-color: #7e57c2
+;
+} 
+.images img {
+    width: 55px;
+    height: 55px;
+    border-radius: 7px;
+}
+.selectedImg{
+    border: 2px solid #7e57c2
+;
+}
+.images img:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+.card-body{
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.btn-success{
+    background-color: #7e57c2
+;
+}
+
+.btn-danger{
+    background-color: #7e57c2
+;
+}
