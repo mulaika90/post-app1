@@ -74,4 +74,8 @@
 .btn-danger{
     background-color: #7e57c2
 ;
+border: 2px solid #7e57c2;
+}
+.card-header{
+    color: #673ab7;
 }
