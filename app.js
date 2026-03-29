@@ -5,9 +5,12 @@ function deletePost(){
 }
 function editPost(){
     var card = event.target.parentNode.parentNode
-    var title = card.children
-  console.log(title);
-  
+    var title =card.children[1].children[0].children[0].children[0].innerText
+    var description =card.children[1].children[0].children[1].innerText
+    document.getElementById("title").value = title
+    document.getElementById("description").value = description
+    card.remove()
+  console.log(title, description);
 }
 
 var cardBg
@@ -32,8 +35,6 @@ function post(){
                   </figcaption>
                 </figure>
               </div>
-            </div>
-
              <div class="ms-auto m-2">
               <button onclick="editPost()" class="btn btn-success">Edit</button>
               <button onclick="deletePost()" class="btn btn-danger">Delete</button>
